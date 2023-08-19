@@ -1,0 +1,89 @@
+.header-top-bg{
+    background: var(--header-topo);
+}
+
+.header-itens{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contatos-header{
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.redes p{
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+
+.logo{
+    font-size: 3rem;
+    color: var(--cor-logo);
+    font-weight:600;
+}
+
+.nav-itens {
+    display: flex;
+    gap: 120px;
+}
+
+.nav-itens a{
+    color: var(--preto);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+
+.nav-itens a:hover{
+    color: var(--cor-logo);
+    transition: .3s;
+}
+
+
+
+.botoes-direito{
+    display: flex;
+    gap: 10px;
+}
+
+.botoes-direito :nth-child(4){
+    display: none;
+}
+
+@media(max-width:1000px){
+    .nav{
+        display: none;
+    }
+
+    .botoes-direito :nth-child(n){
+        display: none;
+    }
+
+    .botoes-direito :nth-child(4){
+        display: block;
+    }
+
+    .cabecalho{
+        display: none;
+    }
+
+}

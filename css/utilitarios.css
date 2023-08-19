@@ -1,0 +1,14 @@
+/* cores */
+:root{
+    --intro-bg: #EFEFEF;
+    --header-topo: #222836;
+    --preto:  #000000;
+    --cor-logo: #7BA986;
+}
+
+
+/* tipografia */
+:root{
+    --texto-medio: font-family: 'Roboto', sans-serif;
+}
+
