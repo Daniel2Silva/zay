@@ -26,12 +26,12 @@
     align-items: center;
     font-size: 0.7rem;
     gap: 10px;
-    color: #ffffff;
+    color: var(--cor-branco);
 }
 
 .redes p{
     font-size: 0.7rem;
-    color: #ffffff;
+    color: var(--cor-branco)
 }
 
 .logo{

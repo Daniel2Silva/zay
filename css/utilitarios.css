@@ -1,14 +1,31 @@
 /* cores */
-:root{
+:root {
     --intro-bg: #EFEFEF;
     --header-topo: #222836;
-    --preto:  #000000;
+    --preto: #000000;
     --cor-logo: #7BA986;
+    --cor-branco: #ffffff
 }
 
 
 /* tipografia */
-:root{
-    --texto-medio: font-family: 'Roboto', sans-serif;
+.texto-pequeno {
+    font-size: 0.7rem;
+    gap: 10px;
+    color: var(--cor-branco);
 }
 
+.texto-medio{
+    color: var(--cor-branco);
+    font-size: 1rem;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.texto-grande {
+    font-size: 3rem;
+    color: var(--cor-logo);
+    font-style: italic;
+    font-weight: 100;
+    line-height: 1.3;
+}
