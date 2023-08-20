@@ -1,15 +1,16 @@
 .fotin {
     border-radius: 50%;
-    border: none;
-    max-width: 320px;
-    padding-bottom: 10px;
+    border: var(--intro-bg) 2px solid;
+    max-width: 300px;
     cursor: pointer;
+    margin: 5px;
 }
 
 .conteudo {
     max-width: 1300px;
     padding: 40px;
     margin: 0 auto;
+    padding-bottom: 120px;
 }
 
 .texto-mes h2 {
@@ -54,7 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
 }
 
 
