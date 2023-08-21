@@ -106,7 +106,7 @@
 
     .nav.ativo .js-menu{
         visibility: visible;
-        height: calc(100vw - 300px);
+        height: calc(100vw - 200px);
         overflow-y: auto;
     }
 }
