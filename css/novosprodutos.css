@@ -1,19 +1,65 @@
 .novos-produtos {
-    background: var(--intro-bg);
+    background: var(--cor-vendido-bg);
 }
-
+.mais-vendido img{
+    border-radius: 4px;
+}
 .mais-vendido {
     max-width: 400px;
     background: var(--cor-branco);
     height: 500px;
+    border-radius: 4px;
 }
+
+.mais-vendido p {
+    padding: 5px 0px;
+}
+
+.texto-mes h1 {
+    font-size: 3rem;
+    color: var(--cor-preto);
+    font-style: italic;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
 
 .preco {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 10px;
 }
 
 .espaco-item {
     padding: 15px 15px;
+}
+
+.conteudo-itens2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media(max-width:1000px){
+    .mais-vendido {
+        max-width: 300px;
+    }
+    
+}
+
+@media(max-width:800px){
+    .conteudo-itens2{
+        flex-direction: column;
+    }
+    .texto-mes h1{
+        font-size: 2.4rem;
+    }
+    .conteudo-itens2{
+        gap: 30px;
+    }
+    .mais-vendido {
+        height: 420px;
+    }
 }
