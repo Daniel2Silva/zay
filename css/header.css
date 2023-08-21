@@ -71,21 +71,25 @@
 }
 
 @media(max-width:1000px){
-    .js-menu{
-        display: none;
+    .nav-itens{
+        display: block;
         position: absolute;
         flex-direction: column;
         background: var(--cor-branco);
         padding-left: 20px;
         width: 100%;
-        height: 40vw;
+        height: 0px;
         top: 75px;
         left: 0;
-        gap: 30px;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+        z-index: 1000;
     }
 
-    .js-menu a{
-        padding: 3px;
+    .nav-itens li{
+        margin-bottom: 16px;
+        padding: 5px;
     }
 
     .botoes-direito :nth-child(n){
@@ -100,7 +104,9 @@
         display: none;
     }
 
-    .js-menu.ativo{
-        display: flex;
+    .nav.ativo .js-menu{
+        visibility: visible;
+        height: calc(100vw - 300px);
+        overflow-y: auto;
     }
 }

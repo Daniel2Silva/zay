@@ -1,4 +1,4 @@
-const menu = document.querySelector('.js-menu');
+const menu = document.querySelector('.nav');
 const botaoMenu = document.querySelector('.js-menu-mobile');
 
 function ativarMenu(){
