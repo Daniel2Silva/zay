@@ -34,7 +34,7 @@
 .conteudo-produto button {
     background: var(--cor-logo);
     color: var(--cor-branco);
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -43,7 +43,8 @@
 
 .conteudo-produto p {
     text-align: center;
-    padding: 5px
+    padding: 10px;
+    font-size: 1.2rem;
 }
 
 .texto-mes {
@@ -76,5 +77,8 @@
 
     .conteudo-produto{
         padding-top: 60px;
+    }
+    .fotin{
+        max-width: 280px;
     }
 }

@@ -1,0 +1,23 @@
+.footer-bg{
+    background: var(--footer-bg);
+}
+
+.footer-bg > div{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.secao-footer h1{
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border-footer);
+    color: var(--cor-logo);
+}
+
+.secao-footer > div {
+    padding-top: 10px;
+}

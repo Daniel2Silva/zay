@@ -62,4 +62,7 @@
     .mais-vendido {
         height: 420px;
     }
+    .mais-vendido {
+        max-width: 400px;
+    }
 }
