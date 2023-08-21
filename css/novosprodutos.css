@@ -1,0 +1,19 @@
+.novos-produtos {
+    background: var(--intro-bg);
+}
+
+.mais-vendido {
+    max-width: 400px;
+    background: var(--cor-branco);
+    height: 500px;
+}
+
+.preco {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.espaco-item {
+    padding: 15px 15px;
+}
