@@ -67,11 +67,25 @@
 
 .botoes-direito :nth-child(4){
     display: none;
+    cursor: pointer;
 }
 
 @media(max-width:1000px){
-    .nav{
+    .js-menu{
         display: none;
+        position: absolute;
+        flex-direction: column;
+        background: var(--cor-branco);
+        padding-left: 20px;
+        width: 100%;
+        height: 40vw;
+        top: 75px;
+        left: 0;
+        gap: 30px;
+    }
+
+    .js-menu a{
+        padding: 3px;
     }
 
     .botoes-direito :nth-child(n){
@@ -85,5 +99,12 @@
     .cabecalho{
         display: none;
     }
+
+    .js-menu.ativo{
+        display: flex;
+    }
+
+
+
 
 }
