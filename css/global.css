@@ -21,11 +21,11 @@ img{
 .js-scroll{
     opacity: 0;
     transition: .6s;
-    transform: translate3d(-40px, 0, 0);
+    transform: translateY(40px)
 }
 
 .js-scroll.ativo{
     opacity: 1;
     transition: .6s;
-    transform: translate3d(0, 0, 0);
+    transform: translateY(0px);
 }
