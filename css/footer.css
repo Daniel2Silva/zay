@@ -21,3 +21,21 @@
 .secao-footer > div {
     padding-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    .footer-bg > div {
+        flex-direction: column;
+        gap: 30px;
+    } 
+}
