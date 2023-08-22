@@ -30,7 +30,7 @@ function initScrollSuave() {
 initScrollSuave();
 
 const jsScroll = document.querySelectorAll(".js-scroll");
-const windowTamanho = window.innerHeight * 0.6;
+const windowTamanho = window.innerHeight * 0.7;
 
 function animaScroll() {
   jsScroll.forEach((section) => {

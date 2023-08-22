@@ -9,6 +9,8 @@
     --cor-vendido-bg: #E9EEF5;
     --footer-bg: #212934;
     --border-footer: #2D343F;
+    --cor-cinza-footer: #C5C7CA;
+    --cor-azul-escuro: #1D242D;
 
 }
 
@@ -52,4 +54,42 @@
     color: var(--cor-preto);
     font-weight: 100;
     line-height: 1.3;
+}
+
+.espaco-footer{
+    padding-top: 10px;
+}
+
+.tipografia-footer p{
+    color: var(--cor-cinza-footer);
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.tipografia-footer li a{
+    color: var(--cor-cinza-footer);
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.tipografia-footer li a:hover{
+    color: var(--cor-logo);
+}
+
+
+.tipografia-footer a,p:hover{
+    color: var(--cor-logo);
+    cursor: pointer;
+}
+
+.tipografia-footer span{
+    margin-top: 5px;
+}
+
+.texto-grande-footer{
+    font-size: 1.5rem;
+    color: var(--cor-cinza-footer);
+    font-style: italic;
+    font-weight: 100;
 }

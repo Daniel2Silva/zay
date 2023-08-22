@@ -7,21 +7,102 @@
     margin: 0 auto;
     padding: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
 
-.secao-footer h1{
+
+
+.secao-footer .logo {
     padding-bottom: 10px;
     border-bottom: 2px solid var(--border-footer);
     color: var(--cor-logo);
+    font-size: 1.5rem;
 }
+
+.secao-footer .texto-grande-footer {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border-footer);
+}
+
+
 
 .secao-footer > div {
     padding-top: 10px;
 }
 
+.secao-footer{
+    width: 400px;
+    height: 200px;
+}
+
+.contatos{
+    border-top: 2px solid var(--border-footer) ;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-self: center;
+    padding: 40px 40px;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 30px;
+}
+.redes-sociais a{
+    font-size: 25px;
+    color: var(--cor-cinza);
+    border: 1px solid var(--cor-cinza) ;
+    padding: 10px 10px;
+    border-radius: 30%;
+}
+
+.redes-sociais a:hover{
+    background: var(--cor-cinza);
+    color: var(--footer-bg);
+    transition: .6s;
+}
+
+
+.enviar-email{
+    display: flex;
+    align-items: center;
+}
+
+.enviar-email input{
+    height: 40px;
+    background: transparent;
+    border: 1px solid var(--border-footer);
+    border-radius: 6px 0px 0px 6px;
+}
+
+.enviar-email button{
+    background: var(--cor-logo);
+    color: var(--cor-cinza-footer);
+    height: 40px;
+    width: 70px;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+    border: none;
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+
+.direitos > div{
+    background: var(--cor-azul-escuro);
+}
+
+.direitos-item{
+    max-width: 1300px;
+    padding: 20px;
+    text-align: center;
+    color: var(--cor-cinza-footer);
+}
 
 
 
@@ -37,5 +118,14 @@
     .footer-bg > div {
         flex-direction: column;
         gap: 30px;
-    } 
+    }
+
+    .contatos{
+        gap: 30px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:420px){
+    
 }
