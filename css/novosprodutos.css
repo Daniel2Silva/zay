@@ -1,9 +1,11 @@
 .novos-produtos {
     background: var(--cor-vendido-bg);
 }
-.mais-vendido img{
+
+.mais-vendido img {
     border-radius: 4px;
 }
+
 .mais-vendido {
     width: 400px;
     background: var(--cor-branco);
@@ -35,34 +37,46 @@
     padding: 15px 15px;
 }
 
-.conteudo-itens2{
+.conteudo-itens2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-@media(max-width:1000px){
+@media(max-width:1000px) {
     .mais-vendido {
         max-width: 300px;
     }
-    
+
 }
 
-@media(max-width:800px){
-    .conteudo-itens2{
+@media(max-width:800px) {
+    .conteudo-itens2 {
         flex-direction: column;
     }
-    .texto-mes h1{
+
+    .texto-mes h1 {
         font-size: 2.4rem;
     }
-    .conteudo-itens2{
+
+    .conteudo-itens2 {
         gap: 30px;
     }
+
     .mais-vendido {
         height: 500px;
     }
+
     .mais-vendido {
         max-width: 400px;
+    }
+
+
+}
+
+@media(max-width:420px) {
+    .mais-vendido {
+       max-width: 300px;
     }
 }
