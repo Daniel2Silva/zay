@@ -72,4 +72,8 @@
     .lado-direito{
         max-width: 500px;
     }
+
+    .lado-direito img{
+        max-width: 400px;
+    }
 }

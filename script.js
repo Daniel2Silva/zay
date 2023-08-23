@@ -45,7 +45,11 @@ function animaScroll() {
 animaScroll();
 window.addEventListener("scroll", animaScroll);
 
+
 const lista = document.querySelectorAll(".js-todolist");
+lista[0].classList.add('ativo')
+lista[0].nextElementSibling.classList.add('ativo')
+
 
 function mostrarResposta(){
   this.classList.toggle('ativo')

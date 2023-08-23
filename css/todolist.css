@@ -38,17 +38,6 @@ dd{
     display: none;
 }
 
-
-.js-todolist::after{
-    content: '⮧';
-    margin-left: 10px;
-}
-
-.js-todolist.ativo::after{
-    content: '⮥';
-}
-
-
 dd.ativo{
     display: flex;
     animation: Slidedown .5s forwards;
@@ -62,7 +51,7 @@ dd.ativo{
     }
     to{
         opacity: 1;
-        max-height: 100px;
+        max-height: 160px;
     }
 }
 
