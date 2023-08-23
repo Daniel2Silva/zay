@@ -114,6 +114,8 @@
 
 
 
+
+
 @media(max-width:800px){
     .footer-bg > div {
         flex-direction: column;
@@ -123,9 +125,12 @@
     .contatos{
         gap: 30px;
         flex-direction: column;
+        border-top: none;
     }
 }
 
 @media(max-width:420px){
-    
+    .secao-footer{
+        width: 370px;
+    }
 }
