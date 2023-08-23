@@ -69,7 +69,9 @@
     .lado-esquerdo p{
         font-size: 1rem;
     }
-
+    .lado-direito{
+        max-width: 500px;
+    }
 
 
 }

@@ -5,7 +5,7 @@
     border-radius: 4px;
 }
 .mais-vendido {
-    max-width: 400px;
+    width: 400px;
     background: var(--cor-branco);
     height: 500px;
     border-radius: 4px;
@@ -64,5 +64,11 @@
     }
     .mais-vendido {
         max-width: 400px;
+    }
+}
+
+@media(max-width:41200px){
+    .mais-vendido{
+        width: 350px;
     }
 }
